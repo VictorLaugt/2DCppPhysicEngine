@@ -1,0 +1,2 @@
+add_executable(demo_vectors demo_vectors.cpp)
+target_link_libraries(demo_vectors LINK_PUBLIC geometry)

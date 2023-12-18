@@ -1,0 +1,56 @@
+BasedOnStyle: Microsoft
+ColumnLimit: 85
+
+# Indentation
+IndentWidth: 4
+NamespaceIndentation: All
+AccessModifierOffset: -4
+
+# Déclarations, définitions et appels de fonctions avec beaucoup de paramètres
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: BlockIndent
+
+# Compacter du code en une seule ligne
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+CompactNamespaces: false
+
+# Templates C++
+AlwaysBreakTemplateDeclarations: Yes
+
+# Accolades
+BreakBeforeBraces: Custom
+BraceWrapping:
+  IndentBraces: false
+
+  AfterControlStatement: false
+  AfterCaseLabel: false
+  BeforeWhile: false
+  BeforeCatch: true
+  BeforeElse: true
+
+  AfterFunction: false
+  AfterStruct: false
+  AfterEnum: false
+  AfterUnion: false
+  AfterClass: false
+  AfterNamespace: false
+  BeforeLambdaBody: false
+
+  AfterExternBlock: true
+
+# Commentaires
+SpacesBeforeTrailingComments: 2
+AlignTrailingComments: true
+
+# Espacement maximal du code
+MaxEmptyLinesToKeep: 2
+
+# Includes
+SortIncludes: false
