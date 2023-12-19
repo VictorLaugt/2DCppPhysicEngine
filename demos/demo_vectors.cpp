@@ -17,11 +17,11 @@ int main() {
     apply_speed(p, -Vector(30.0, 60.0)/3.0, 0.1);
     cout << "p = " << p << endl;
 
-    Vector<float> u{3.14f, 5.3f};
+    // Vector<float> u{3.14f, 5.3f};
     Vector<double> v{3.14, 5.3};
 
-    cout << u.normalized() << endl;
-    cout << u.normalized().squared_norm() << endl;
+    // cout << u.normalized() << endl;
+    // cout << u.normalized().squared_norm() << endl;
 
     cout << v.normalized() << endl;
     cout << v.normalized().squared_norm() << endl;

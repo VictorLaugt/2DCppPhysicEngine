@@ -1,7 +1,5 @@
 #include "calculus.hpp"
 
-#include <iostream>
-
 using namespace std;
 
 double fast_inverse_square_root(double number) {
